@@ -4,8 +4,9 @@
   <name>scout_gazebo_sim</name>
   <version>0.0.1</version>
   <description>AgileX Scout 2.0 Simulator bringup</description>
-  <maintainer email="luca.bascetta@polimi.it">tgrip</maintainer>
-  <license>BSD</license>
+  <maintainer email="luca.bascetta@polimi.it">Luca Bascetta</maintainer>
+  <maintainer email="mattia.dutto@polito.it">Mattia Dutto</maintainer>
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
@@ -19,6 +20,7 @@
   <depend>rclcpp</depend>
   <depend>sensor_msgs</depend>
   <depend>tf2</depend>
+  <depend>twist_mux</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
