@@ -23,7 +23,6 @@ endif()
 
 install(
   DIRECTORY
-    config
     urdf
     rviz
     launch
